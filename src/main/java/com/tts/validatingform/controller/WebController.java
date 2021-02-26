@@ -1,4 +1,4 @@
-package controller;
+package com.tts.validatingform.controller;
 
 import javax.validation.Valid;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import model.PersonForm;
+import com.tts.validatingform.model.PersonForm;
 
 
 @Controller

@@ -1,9 +1,10 @@
-package model;
+package com.tts.validatingform.model;
 
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import com.sun.istack.NotNull;
+//import com.sun.istack.NotNull;
 
 public class PersonForm {
 
@@ -11,7 +12,7 @@ public class PersonForm {
 	@Size(min=2, max=30)
 	private String name;
 
-	@NotNull
+	
 	@Min(18)
 	private Integer age;
 
